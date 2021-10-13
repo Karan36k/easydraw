@@ -34,12 +34,12 @@
 <body><center>
 <nav class="navbar navbar-expand-sm bg-light navbar-light">
   <!-- Brand/logo -->
-  <a class="navbar-brand" href="#"><h1>tf<small>tf</small></h1></a>
+  <a class="navbar-brand" href="#"><h1>Easy<small>draw</small></h1></a>
   </nav>
 <div class="container-fluid"> 
 <blockquote class="blockquote text-justify" style="margin:30px;">
  <small> Please draw inside the box and the model will predict with probability what the image looks like.<br> 
- CNN model is trained to recognize 100 <a href='https://github.com/karan36k/easydraw/blob/master/sketcher/mini_classes.txt'>classes</a> using the quick draw <a href='https://github.com/googlecreativelab/quickdraw-dataset'> dataset</a>. It achieves 6% top 5 error. The accuracy could be improved.
+ CNN model is trained to recognize 100 <a href='https://github.com/karan36k/easydraw/blob/main/mini_classes.txt'>classes</a> using the quick draw <a href='https://github.com/googlecreativelab/quickdraw-dataset'> dataset</a>. It achieves 6% top 5 error. The accuracy could be improved.
     <footer class="blockquote-footer">Karan Arora</footer></small>
   </blockquote>
 </div>
@@ -48,7 +48,7 @@
   <div class="col" style ='margin-left:200px;'>
 <h4 id ='status' >Loading Model... </h4>	  
 <canvas id="canvas" width="650" height="270" class="canvas" style="border:8px solid red;margin-top:15px;"></canvas>
-<div class="btn-group" style = 'margin-top:40px; '>
+<div class="btn-group" style = 'margin-top:40px; '>Marker Size -
 <input type="range" min="5" max="20" value="10" class="slider" id="myRange" style ='margin-top:20px;'>
 <button type="button" class="btn btn-outline-primary" onclick ='erase()' style ='margin-left:2px;' disabled>Clear</button>
     </div>   
