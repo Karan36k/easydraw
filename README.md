@@ -1,4 +1,5 @@
 # EasyDraw
+easydraw is a smart tool which reads your drawing and then gives you suggestion to what you might have drawn.
 
 ## Description 
 
